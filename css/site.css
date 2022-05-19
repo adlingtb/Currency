@@ -1,0 +1,31 @@
+.total{
+    font-size: 20px;
+    color: #0a53be;
+}
+
+.resultBox{
+    background-color: #25cff2;
+    padding: 20px;
+    margin: 40px 20px 20px 20px;
+}
+
+h1{
+    margin: 20px 20px 30px 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #0dcaf0;
+    color: #ffffff;
+}
+
+h2{
+    margin: 20px;
+}
+
+select{
+    width: 50% !important;
+    margin: auto
+}
+input{
+    width: 50% !important;
+    margin: auto
+}

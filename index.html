@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Exchange</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/site.css">
+
+
+</head>
+<body>
+<h1>Currency Exchange</h1>
+<div class="text-center">
+    <h2>Select amount to convert: </h2>
+
+    <form>
+        <label for="amount">Amount</label>
+        <input class="form-control" type="text" id="amount" name="amount">
+    </form>
+
+    <h2>Select a source currency: </h2>
+
+    <select class="form-control" name="source" id="source">
+        <option value="GBP">GBP</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="CAD">CAD</option>
+        <option value="INR">INR</option>
+        <option value="AUD">AUD</option>
+        <option value="SGD">SGD</option>
+        <option value="MYR">MYR</option>
+        <option value="CHF">CHF</option>
+        <option value="JPY">JPY</option>
+        <option value="CNY">CNY</option>
+        <option value="Other">Other...</option>
+    </select>
+
+    <h2>Select a final currency: </h2>
+
+    <select class="form-control" name="final" id="final">
+        <option value="GBP">GBP</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="CAD">CAD</option>
+        <option value="INR">INR</option>
+        <option value="AUD">AUD</option>
+        <option value="SGD">SGD</option>
+        <option value="MYR">MYR</option>
+        <option value="CHF">CHF</option>
+        <option value="JPY">JPY</option>
+        <option value="CNY">CNY</option>
+        <option value="Other">Other...</option>
+    </select>
+    <div class="resultBox">
+        <a class="btn btn-primary" id="convert">Convert</a>
+        <p class="text-white" style="display: none" id="yourTotal">Your Total is <strong id="total" class="total">Calculating...</strong><strong id="finalCurrency"></strong></p>
+    </div>
+
+</div>
+
+
+
+
+
+<script src="js/currency.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
